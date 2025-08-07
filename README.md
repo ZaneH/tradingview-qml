@@ -5,3 +5,13 @@ This is a template for embedding TradingView Lightweight charts into Qt QML appl
 
 <img width="550" alt="image" src="https://github.com/user-attachments/assets/04025bd7-d50a-446c-802a-8b971c62d73f" />
 </div>
+
+## Run
+
+```sh
+$ git clone https://github.com/ZaneH/tradingview-qml.git
+$ cd tradingview-qml
+$ mkdir build && cd build
+$ cmake ..
+$ make -j(nproc)
+```
